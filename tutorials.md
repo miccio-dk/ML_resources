@@ -7,3 +7,4 @@
   - https://www.datacamp.com/community/tutorials/autoencoder-keras-tutorial
   - https://lilianweng.github.io/lil-log/2018/08/12/from-autoencoder-to-beta-vae.html#vae-variational-autoencoder
   - (lots of further resources at the bottom) https://www.jeremyjordan.me/variational-autoencoders/
+  - (VAE explained through ML and statistics) https://jaan.io/what-is-variational-autoencoder-vae-tutorial/
