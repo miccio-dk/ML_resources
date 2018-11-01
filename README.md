@@ -1,1 +1,2 @@
-# ML_resources
+# ML Resources
+> resources for Machine Learning 
