@@ -66,7 +66,7 @@ Subset of the Speech Commands dataset (https://goo.gl/tf3diA), which contains th
 
 
 
-## -- Basic pre-processing --
+## Basic pre-processing
 Pad/truncate to 16k samples corresponding to 1 second of audio.
 
 Short-time Fourier transform with 1024 samples long Hann windows and hop-size of 512 samples.
@@ -77,7 +77,7 @@ In: /home/tomas/datasets/sc012/compute_spectrograms.ipynb
 
 
 
-## -- Baseline --
+## Baseline
 Input representation: standard log Mel power spectrogram with 128 Mel bins -> (128, 32) -> (128, 32, 1)
 
 Architecture: Five consecutive 2D convolutional layers with 3*3 kernels/filters, each followed by batch normalization, ReLU acivation function and 2D MaxPooling.
