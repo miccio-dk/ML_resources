@@ -37,11 +37,11 @@ scikit-learn
 
    b) Change pre-processing, model_path and log_dir parameters.
    
-   c) If necessary, change n_rows, n_cols, n_channels parameters, which should correspond to the size of your input                 representation.
+   c) If necessary, change n_rows, n_cols and n_channels parameters, which should correspond to the size of your input                 representation.
    
    d) If necessary, implement a new model architecture in train.py and change the model parameter in the shell script               correspondingly. 
    
-   e) Don't change the other parameters training hyper-parameters, in order to compare only input representations and               architectures.
+   e) Don't change the other training hyper-parameters, so we compare only input representations and               architectures.
    
 Brief description of all the parameters can be found in the end of the train.py script.
 
@@ -73,7 +73,9 @@ Short-time Fourier transform with 1024 samples long Hann windows and hop-size of
 
 Resulting shape: (513, 32)
 
-In: /home/tomas/datasets/sc012/compute_spectrograms.ipynb
+Data type: complex64
+
+Code in: /home/tomas/datasets/sc012/compute_spectrograms.ipynb
 
 
 
