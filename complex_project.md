@@ -5,6 +5,8 @@ The objectives of this project are:
 
 2. Find out how well an audio model that uses complex numbers performs compared to the standard solution which uses only real    numbers.
 
+Results: https://goo.gl/p6zvCt
+
 
 
 ## Framework on the AAU server based in CPH
@@ -15,6 +17,8 @@ Data directory:      /home/tomas/datasets/sc012
 
 
 ## Requirements
+Python 3.6
+
 keras-gpu==2.0.8
 
 tensorflow-gpu==1.4
@@ -25,6 +29,26 @@ librosa
 
 scikit-learn
 
+
+### Installation
+Install Miniconda (environment manager) on Linux https://goo.gl/o15sAs
+
+Create conda environment
+```
+conda create -n <name> python=3.6
+```
+   
+Activate your environment
+```
+source activate <name>
+```
+
+Install packages
+```
+conda install -c c3i_test2 keras-gpu
+conda install -c cjj3779 tensorflow-gpu
+conda install -c conda-forge librosa pandas scikit-learn
+```
 
 
 ## Usage
@@ -48,7 +72,7 @@ Brief description of all the parameters can be found in the end of the train.py 
    
 3. a) Execute your shell script (e.g. ./train_log_mel_baseline.sh), which will train, save and test your model. 
 
-   b) Write down the testing accuracy and result of the model into the following sheet: https://goo.gl/p6zvCt
+   b) Write down the testing accuracy and loss of the model as well as the total number of parameters into the following sheet: https://goo.gl/p6zvCt
    
    c) Describe the input representation and possibly the architecture.
    
