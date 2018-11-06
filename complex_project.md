@@ -5,7 +5,7 @@ The objectives of this project are:
 
 2. Find out how well an audio model that uses complex numbers performs compared to the standard solution which uses only real    numbers.
 
-Results: https://goo.gl/p6zvCt
+Results: https://goo.gl/PjM1MQ
 
 
 
@@ -72,7 +72,7 @@ Brief description of all the parameters can be found in the end of the train.py 
    
 3. a) Execute your shell script (e.g. ./train_log_mel_baseline.sh), which will train, save and test your model. 
 
-   b) Write down the testing accuracy and loss of the model as well as the total number of parameters into the following sheet: https://goo.gl/p6zvCt
+   b) Write down the testing accuracy and loss of the model as well as the total number of parameters into the following sheet: https://goo.gl/PjM1MQ
    
    c) Describe the input representation and possibly the architecture.
    
