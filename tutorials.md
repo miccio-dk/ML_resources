@@ -1,7 +1,9 @@
 # Tutorials and lessons
 > Resources for the layman
 
-- ConvNets: https://www.datacamp.com/community/tutorials/convolutional-neural-networks-python
+- ConvNets: 
+  - https://www.datacamp.com/community/tutorials/convolutional-neural-networks-python
+  - https://www.youtube.com/watch?v=MgawSHnYQGw
 - Autoencoders:
   - https://blog.keras.io/building-autoencoders-in-keras.html
   - https://www.datacamp.com/community/tutorials/autoencoder-keras-tutorial
